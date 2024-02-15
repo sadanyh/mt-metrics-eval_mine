@@ -44,7 +44,7 @@ class EvalSet:
                lp: str,
                read_stored_metric_scores: bool = False,
                info: meta_info.MetaInfo = None,
-               path: str = None,
+               path: str = '/content/.mt-metrics-eval/mt-metrics-eval-v2',
                strict: bool = False,
                read_stored_ratings: bool = False):
     """Load data for a given test set and language pair.
